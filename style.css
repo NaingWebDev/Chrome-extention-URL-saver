@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  min-width: 400px;
+}
+
+.ctn {
+  width: 100%;
+  padding: 10px;
+}
+
+.ctn input {
+  width: 100%;
+  padding: 1rem;
+}
+
+.ctn button {
+  padding: 0.5rem;
+  background-color: cadetblue;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.ctn button:hover {
+  background-color: chocolate;
+  color: #fff;
+}
+
+.ctn .delete {
+  background-color: white;
+  color: cadetblue;
+}
+
+.url-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 0.5rem;
+  background-color: rgb(218, 218, 218);
+}
+
+.url-item span {
+  width: 95%;
+}
+
+.url-item img {
+  width: 5%;
+  cursor: pointer;
+}
+
+.url-item a {
+  color: cadetblue;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.url-item a:hover {
+  color: white;
+}
